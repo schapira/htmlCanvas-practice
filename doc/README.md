@@ -44,7 +44,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D#paths
 * `lineTo(x,y)` - מחבר את הנקודה האחרונה שהוגדרה לנקודה שהוכנסה בקו ישר
 * `bezierCurveTo()`
   מוסיף  קו מעוקל [דוגמה](examples/bezierCurveTo().html)
-  {{להוסיף תמונה}}
+  ![examples/download.png]() {{להוסיף תמונה}}
 * `quadraticCurveTo()`
   Adds a quadratic Bézier curve to the current path.
 * `arc()`
