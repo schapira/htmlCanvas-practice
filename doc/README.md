@@ -36,7 +36,7 @@
 
 ### פעולות נוספות שניתן לעשות במהלך ציור נתיב
 
-https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D#paths
+[מקור](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D#paths)
 
 * `lineTo(x,y)` - מחבר את הנקודה האחרונה שהוגדרה לנקודה שהוכנסה בקו ישר
 * `bezierCurveTo()`

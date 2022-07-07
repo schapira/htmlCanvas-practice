@@ -34,6 +34,24 @@ function draw() {
         ctx.arc(90 + x, 65 + y, 5, 0, Math.PI * 2, true); // Right eye
         ctx.stroke();
 
+        // Filled triangle
+        ctx.beginPath();
+        ctx.moveTo(25, 25);
+        ctx.lineTo(105, 25);
+        ctx.lineTo(25, 105);
+        ctx.fill();
+
+        // Stroked triangle
+        ctx.beginPath();
+        ctx.moveTo(125, 125);
+        ctx.lineTo(125, 45);
+        ctx.lineTo(45, 125);
+        ctx.closePath();
+        ctx.stroke();
+
+
+
+
     } else {
         canvas.insertAdjacentHTML("afterend", "<h3>problem</h3>");
     }
