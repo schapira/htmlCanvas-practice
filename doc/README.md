@@ -50,7 +50,8 @@ https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D#paths
 * `quadraticCurveTo()`
   מוסיף קו מעוקל 
   [דוגמה](examples/quadraticCurveTo().html) 
-  ![קו מעוקל](examples\quadraticCurveTo.png) *קו מעוקל* 
+
+  ![קו מעוקל](examples/quadraticCurveTo.png) *קו מעוקל* 
 * `arc()`
   Adds a circular arc to the current path.
 * `arcTo()`
