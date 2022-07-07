@@ -34,13 +34,10 @@
 
 כשמציירים נתיב כל תזוזה של העט מצויירת. אם רוצים לבצע "קפיצה" למיקום אחר מבלי לצייר יש להשתמש ב ;`moveTo(x, y)` משנה את מיקום העט בזמן ציור נתיב מבלי לצייר קו.
 
-### פעולות שניתן לעשות במהלך ציור נתיב
+### פעולות נוספות שניתן לעשות במהלך ציור נתיב
 
 https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D#paths
 
-* `eginPath()` - לעיל
-* `closePath()`
-* `moveTo()`
 * `lineTo(x,y)` - מחבר את הנקודה האחרונה שהוגדרה לנקודה שהוכנסה בקו ישר
 * `bezierCurveTo()`
    מוסיף  קו מעוקל כפול [דוגמה](examples/bezierCurveTo().html)
@@ -52,11 +49,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D#paths
   [דוגמה](examples/quadraticCurveTo().html) 
 
   ![קו מעוקל](examples/quadraticCurveTo.png) *קו מעוקל* 
-* `arc()`
-  Adds a circular arc to the current path.
-* `arcTo()`
-  Adds an arc to the current path with the given control points and radius, connected to the previous point by a straight line.
+* `arc()`, `arcTo()`
+  מוסיף קשת לנתיב
 * `ellipse()`
-  Adds an elliptical arc to the current path.
+מוסיף אליפסה לנתיב
 * `rect()`
-  Creates a path for a rectangle at position (x, y) with a size that is determined by width and height.
+  מוסיף מלבן לנתיב
